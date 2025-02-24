@@ -18,7 +18,7 @@ app.use(cors());
 // app.use(express.json());
 
 app.get("/api/", (request, response) => {
-    response.send("Olá, Mundo!")
+    response.send("Só vamos trabalhar com os endpoints '/artists' e '/songs'")
 });
 
 app.get("/api/artists", async (request, response) => {
